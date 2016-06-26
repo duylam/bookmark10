@@ -1,0 +1,6 @@
+export default {
+  GPIO_MOTION_PIN: process.env.P10_GPIO_MOTION_PIN,
+  NOTIFIER_HOSTNAME: process.env.P10_NOTIFIER_HOSTNAME || 'localhost',
+  NOTIFIER_PORT: process.env.P10_NOTIFIER_PORT || 3000,
+  GPIO_PULLING_DURATION: process.env.P10_GPIO_PULLING_DURATION || 1000
+}

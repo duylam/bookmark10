@@ -1,0 +1,8 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    "add-module-exports",
+    "transform-function-bind",
+    "transform-object-rest-spread"
+  ]
+}
